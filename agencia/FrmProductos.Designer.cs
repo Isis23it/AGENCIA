@@ -54,6 +54,7 @@
             this.btnmas.TabIndex = 6;
             this.btnmas.Text = "+";
             this.btnmas.UseVisualStyleBackColor = true;
+            this.btnmas.Click += new System.EventHandler(this.btnmas_Click);
             // 
             // txtproductos
             // 

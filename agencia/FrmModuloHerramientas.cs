@@ -16,5 +16,28 @@ namespace agencia
         {
             InitializeComponent();
         }
+
+        private void btnmas_Click(object sender, EventArgs e)
+        {
+            FrmHerraminetas frmHerraminetas
+
+                = new FrmHerraminetas();
+            frmHerraminetas.Show();
+        }
+
+        private void lblherrm_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHerra_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtgvHerramientas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

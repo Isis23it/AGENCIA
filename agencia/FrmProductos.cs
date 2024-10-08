@@ -16,5 +16,11 @@ namespace agencia
         {
             InitializeComponent();
         }
+
+        private void btnmas_Click(object sender, EventArgs e)
+        {
+            FrmProducto frmp = new FrmProducto();
+            frmp.Show();
+        }
     }
 }

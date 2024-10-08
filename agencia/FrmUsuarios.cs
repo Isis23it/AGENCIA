@@ -21,5 +21,16 @@ namespace agencia
         {
 
         }
+
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            //Application.Exit();
+            Close();
+        }
+
+        private void btnaceptar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

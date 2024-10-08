@@ -44,6 +44,7 @@
             this.lblherrm.Size = new System.Drawing.Size(173, 26);
             this.lblherrm.TabIndex = 0;
             this.lblherrm.Text = "HERRAMIENTAS";
+            this.lblherrm.Click += new System.EventHandler(this.lblherrm_Click);
             // 
             // txtHerra
             // 
@@ -52,6 +53,7 @@
             this.txtHerra.Name = "txtHerra";
             this.txtHerra.Size = new System.Drawing.Size(418, 40);
             this.txtHerra.TabIndex = 1;
+            this.txtHerra.TextChanged += new System.EventHandler(this.txtHerra_TextChanged);
             // 
             // btnmas
             // 
@@ -62,6 +64,7 @@
             this.btnmas.TabIndex = 2;
             this.btnmas.Text = "+";
             this.btnmas.UseVisualStyleBackColor = true;
+            this.btnmas.Click += new System.EventHandler(this.btnmas_Click);
             // 
             // dtgvHerramientas
             // 
@@ -72,6 +75,7 @@
             this.dtgvHerramientas.RowTemplate.Height = 24;
             this.dtgvHerramientas.Size = new System.Drawing.Size(720, 345);
             this.dtgvHerramientas.TabIndex = 3;
+            this.dtgvHerramientas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvHerramientas_CellContentClick);
             // 
             // FrmModuloHerramientas
             // 
